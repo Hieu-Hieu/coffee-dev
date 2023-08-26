@@ -1,0 +1,8 @@
+{
+  "label": "CS50",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Some things I learned from CS50's course."
+  }
+}
