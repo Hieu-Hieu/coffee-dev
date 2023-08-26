@@ -13,8 +13,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary',styles.hero)}>
       <div className={clsx('container', styles.container)}>
-       <div className='container_inner'>
-       <div className='avt_wrapper'>
+       <div className={clsx('container_inner', styles.container_inner)}>
+       <div className={clsx('avt_wrapper', styles.avt_wrapper)}>
           <img src={myAvt}/>
         </div>
         <h1 className="hero__title">{siteConfig.title}</h1>
